@@ -1,0 +1,196 @@
+/* Your app custom styles here */
+:root {
+    --f7-page-master-width: 320px;
+    --f7-page-master-border-color: rgba(0, 0, 0, 0.1);
+    --f7-page-master-border-width: 1px;
+    /* --f7-page-swipeback-transition-duration: 10000ms; */
+    /*
+    --f7-page-content-extra-padding-top: 0px;
+    --f7-page-content-extra-padding-bottom: 0px;
+    */
+  }
+  /* .ios {
+    --f7-page-bg-color: #efeff4;
+    --f7-page-transition-duration: 1400ms;
+  }
+  .md {
+    --f7-page-bg-color: #fff;
+    --f7-page-transition-duration: 1250ms;
+  }
+  .aurora {
+    --f7-page-bg-color: #f3f3f3;
+    --f7-page-transition-duration: 1400ms;
+  }
+  .theme-dark {
+    --f7-page-bg-color: #171717;
+    --f7-page-master-border-color: rgba(255, 255, 255, 0.1);
+  } */
+
+
+  .color-opco {
+    color: #cbcc33;
+  }
+  .list-block .item-link.list-button.color-opco,
+  .tabbar a.active.color-opco,
+  a.color-opco {
+    color: #cbcc33;
+  }
+  .label-switch input[type="checkbox"]:checked + .checkbox.color-opco,
+  .label-switch.color-opco input[type="checkbox"]:checked + .checkbox {
+    background-color: #cbcc33;
+  }
+  .color-opco.button:not(.button-fill),
+  .color-opco.buttons-row .button,
+  .theme-opco .button:not(.button-fill) {
+    border-color: #cbcc33;
+  }
+  html:not(.watch-active-state) .color-opco.button:not(.button-fill):active,
+  html:not(.watch-active-state) .color-opco.buttons-row .button:active,
+  html:not(.watch-active-state) .theme-opco .button:not(.button-fill):active,
+  .color-opco.button:not(.button-fill).active-state,
+  .color-opco.buttons-row .button.active-state,
+  .theme-opco .button:not(.button-fill).active-state {
+    background-color: rgba(255, 59, 48, 0.15);
+  }
+  .color-opco.button:not(.button-fill).active,
+  .color-opco.buttons-row .button.active,
+  .theme-opco .button:not(.button-fill).active {
+    background-color: #cbcc33;
+    color: #fff;
+  }
+  .theme-opco .button.button-fill,
+  .button.button-fill.color-opco {
+    background: #cbcc33;
+    color: #fff;
+  }
+  .progressbar.color-opco span,
+  .progressbar.theme-opco span,
+  .theme-opco .progressbar span,
+  .progressbar.bg-opco span {
+    background-color: #cbcc33;
+  }
+  .progressbar-infinite.color-opco:before,
+  .progressbar-infinite.theme-opco:before,
+  .theme-opco .progressbar-infinite:before,
+  .progressbar-infinite.bg-opco:before {
+    background-color: #cbcc33;
+  }
+  .color-opco i.icon,
+  .theme-opco i.icon,
+  i.icon.color-opco,
+  i.icon.theme-opco {
+    color: #cbcc33;
+  }
+  i.icon-next.color-opco,
+  i.icon-next.theme-opco,
+  .theme-opco i.icon-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2015%2015'%3E%3Cg%3E%3Cpath%20fill%3D'%23cbcc33'%20d%3D'M1%2C1.6l11.8%2C5.8L1%2C13.4V1.6%20M0%2C0v15l15-7.6L0%2C0L0%2C0z'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+  i.icon-prev.color-opco,
+  i.icon-prev.theme-opco,
+  .theme-opco i.icon-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2015%2015'%3E%3Cg%3E%3Cpath%20fill%3D'%23cbcc33'%20d%3D'M14%2C1.6v11.8L2.2%2C7.6L14%2C1.6%20M15%2C0L0%2C7.6L15%2C15V0L15%2C0z'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  }
+  i.icon-back.color-opco,
+  i.icon-back.theme-opco,
+  .theme-opco i.icon-back {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2012%2020'%3E%3Cpath%20d%3D'M10%2C0l2%2C2l-8%2C8l8%2C8l-2%2C2L0%2C10L10%2C0z'%20fill%3D'%23cbcc33'%2F%3E%3C%2Fsvg%3E");
+  }
+  i.icon-forward.color-opco,
+  i.icon-forward.theme-opco,
+  .theme-opco i.icon-forward {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2012%2020'%3E%3Cpath%20d%3D'M2%2C20l-2-2l8-8L0%2C2l2-2l10%2C10L2%2C20z'%20fill%3D'%23cbcc33'%2F%3E%3C%2Fsvg%3E");
+  }
+  i.icon-bars.color-opco,
+  i.icon-bars.theme-opco,
+  .theme-opco i.icon-bars {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2021%2014'%3E%3Cpath%20fill%3D'%23cbcc33'%20d%3D'M0%2C0h2v2H0V0z%20M4%2C0h17v1H4V0z%20M0%2C6h2v2H0V6z%20M4%2C6h17v1H4V6z%20M0%2C12h2v2H0V12z%20M4%2C12h17v1H4V12z'%2F%3E%3C%2Fsvg%3E");
+  }
+  @media (-webkit-min-device-pixel-ratio: 2) {
+    i.icon-bars.color-opco,
+    i.icon-bars.theme-opco,
+    .theme-opco i.icon-bars {
+      background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2042%2026'%3E%3Cpath%20fill%3D'%23cbcc33'%20d%3D'M0%2C0h4v4H0V0z%20M8%2C1h34v2H8V1z%20M0%2C11h4v4H0V11z%20M8%2C12h34v2H8V12z%20M0%2C22h4v4H0V22z%20M8%2C23h34v2H8V23z'%2F%3E%3C%2Fsvg%3E");
+    }
+  }
+  .theme-opco a,
+  .theme-opco .item-link.list-button {
+    color: #cbcc33;
+  }
+  .theme-opco .tabbar a,
+  .tabbar.theme-opco a,
+  .theme-opco .tabbar a i,
+  .tabbar.theme-opco a i {
+    color: inherit;
+  }
+  .theme-opco .tabbar a.active,
+  .tabbar.theme-opco a.active,
+  .theme-opco .tabbar a.active i,
+  .tabbar.theme-opco a.active i {
+    color: #cbcc33;
+  }
+  .theme-opco .range-slider input[type="range"]::-webkit-slider-thumb:before,
+  .range-slider.theme-opco input[type="range"]::-webkit-slider-thumb:before {
+    background-color: #cbcc33;
+  }
+  .theme-opco .range-slider input[type="range"]::-ms-fill-lower,
+  .range-slider.theme-opco input[type="range"]::-ms-fill-lower {
+    background-color: #cbcc33;
+  }
+  .theme-opco label.label-checkbox input[type="checkbox"]:checked + .item-media i.icon-form-checkbox,
+  .theme-opco label.label-checkbox input[type="radio"]:checked + .item-media i.icon-form-checkbox {
+    background-color: #cbcc33;
+  }
+  .theme-opco label.label-radio input[type="checkbox"]:checked ~ .item-inner,
+  .theme-opco label.label-radio input[type="radio"]:checked ~ .item-inner {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2013%2010'%3E%3Cpolygon%20fill%3D'%23cbcc33'%20points%3D'11.6%2C0%204.4%2C7.2%201.4%2C4.2%200%2C5.6%204.4%2C10%204.4%2C10%204.4%2C10%2013%2C1.4%20'%2F%3E%3C%2Fsvg%3E");
+  }
+  .theme-opco .picker-calendar-day.picker-calendar-day-selected span {
+    background-color: #cbcc33 !important;
+  }
+  .swiper-pagination.color-opco .swiper-pagination-bullet-active,
+  .theme-opco .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #cbcc33;
+  }
+  .swiper-pagination.color-opco .swiper-pagination-progressbar,
+  .theme-opco .swiper-pagination .swiper-pagination-progressbar {
+    background-color: #cbcc33;
+  }
+  .swiper-pagination.swiper-pagination-progress.bg-opco {
+    background-color: rgba(255, 59, 48, 0.25);
+  }
+  .swiper-button-next.color-opco,
+  .swiper-container-rtl .swiper-button-prev.color-opco,
+  .theme-opco .swiper-button-next,
+  .theme-opco .swiper-container-rtl .swiper-button-prev {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23cbcc33'%2F%3E%3C%2Fsvg%3E");
+  }
+  .swiper-button-prev.color-opco,
+  .swiper-container-rtl .swiper-button-next.color-opco,
+  .theme-opco .swiper-button-prev,
+  .theme-opco .swiper-container-rtl .swiper-button-next {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23cbcc33'%2F%3E%3C%2Fsvg%3E");
+  }
+  .bg-opco,
+  .button.button-fill.bg-opco,
+  a.bg-opco,
+  .list-block .swipeout-actions-left a.bg-opco,
+  .list-block .swipeout-actions-right a.bg-opco {
+    background-color: #cbcc33;
+  }
+  .border-opco {
+    border-color: #cbcc33;
+  }
+  .list-block .border-opco.item-inner:after,
+  .list-block ul.border-opco:after,
+  .border-opco:after,
+  .list-block .border-opco.item-inner:before,
+  .list-block ul.border-opco:before,
+  .border-opco:before {
+    background-color: #cbcc33;
+  }
+  .badge.color-opco,
+  .badge.theme-opco {
+    background-color: #cbcc33;
+    color: #fff;
+  }
