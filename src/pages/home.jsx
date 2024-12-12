@@ -64,7 +64,7 @@ const HomePage = ({f7router, f7route}) => {
       {/* Top Navbar */}
       <Navbar>
         {/* // add plus buton for new event type */}
-        <NavTitle>My App</NavTitle>
+        <NavTitle>Life Logger</NavTitle>
         <NavRight>
           <Button panelOpen="right">
             <Icon f7="bars"> </Icon>

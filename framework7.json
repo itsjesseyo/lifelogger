@@ -1,9 +1,9 @@
 {
-  "cwd": "/Users/macgruber/Documents/lifelogger2",
+  "cwd": "/Users/macgruber/Documents/uncommonly-good/lifelogger",
   "type": [
     "pwa"
   ],
-  "name": "LIfe Logger",
+  "name": "Life Logger",
   "framework": "react",
   "template": "single-view",
   "bundler": "vite",
